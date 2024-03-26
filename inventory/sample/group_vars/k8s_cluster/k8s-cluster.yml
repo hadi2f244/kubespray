@@ -371,3 +371,7 @@ kubeadm_patches:
   enabled: false
   source_dir: "{{ inventory_dir }}/patches"
   dest_dir: "{{ kube_config_dir }}/patches"
+
+# Reference to new version of kubelet_csr_approver and its repository URL
+#kubelet_csr_approver_version: "1.0.5"
+#kubelet_csr_approver_repository_url: "https://myrepo.example.com/kubelet_csr_approver/"
